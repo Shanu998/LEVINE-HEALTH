@@ -1,0 +1,311 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    cursor: pointer;
+    scroll-behavior: smooth;
+    font-family: 'Manrope', sans-serif;
+    
+}
+.container{
+    display: flex;
+}
+.box-1{
+    width: 50%;
+    padding-left: 100px;
+    background: rgba(214, 225, 241, 0.5);
+}
+.box-2{
+    width: 50%;
+    background-image: url(./hero-image.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+.box-2 a{
+    text-decoration: none;
+    color: black; 
+    display: inline-flex; 
+    padding: 30px 0px 0px 40px; 
+    font-weight: 600;
+}
+.box-2 a:hover{
+    color: darkblue;
+}
+.box-2 ul{
+    text-align: center;
+}
+.img-section{
+    padding-top: 20px;
+}
+.header-text{
+    padding-top: 200px;
+    
+}
+.header-subtext-1{
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 1.1;
+    color:#004E89;
+}
+.header-subtext-2{
+    font-size: 15px;
+    font-weight: 200;
+    padding-top: 15px;
+    
+}
+.redefine{
+    font-size: 20px;
+    font-weight: 600;
+}
+.icon-area{
+    width: 100%;
+    padding-bottom: 100px;
+   
+}
+.consult{
+    display: flex;
+    height: 100%;
+
+}
+.box-3{
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+.box-3 div{
+    padding-top: 50px;
+    line-height: 1.9;
+    border: 1px solid white;
+    margin: 50px 50px 0px 50px ;
+    text-align: justify;
+}
+.box-3 h3{
+    color:#004E89;
+}
+.box-3 h5{
+    font-size:30px;
+}
+.box-4{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box-4 div{
+    padding-top: 80px;
+    line-height: 1.9;
+    border: 1px solid white;
+    margin: 50px 50px 0px 50px ;
+    text-align: justify;
+}
+.box-4 h3{
+    color:#004E89;
+}
+.box-4 h5{
+     font-size:30px;
+}
+.applications{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.medicaly{
+    display: flex;
+    background-color: #084482;
+    color: white;
+    height: 100vh;
+}
+.box-5{
+    width: 50%;
+    text-align: justify;
+     display: block;
+     margin: auto;
+    padding-left: 120px;
+    line-height: 1.8;
+}
+.box-5 p{
+    padding-bottom: 20px;
+}
+.box-5 a{
+    color: white;
+    margin: 30px 0px;
+    text-decoration: none;
+    
+}
+.box-6{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.features{
+    height: 100vh;
+}
+.features h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+.features-content{
+    display: flex;
+}
+.box-7{
+    width: 50%;
+    padding-left: 100px;
+}
+.box-8{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.featutes-text{
+    display:  flex;
+    align-items: center;
+
+
+}
+.featutes-text p{
+    padding-top: 30px;
+    padding-left: 20px;
+    line-height: 1.5;
+    text-align: justify;
+}
+.iphone-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+}
+.slider ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    transition: 0.5s ease;
+}
+.slider img{
+    padding: 5px;
+}
+.waitlist{
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-around;
+    margin: 5px 300px 20px 300px;
+    align-items: center;
+    border-radius: 20px;
+    background-image: url(./images/BG\ Mask.png);
+    color: white;
+}
+.waitlist input{
+    padding: 5px;
+    margin: 10px 0px;
+}
+.waitlist button{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border: none;
+}
+.box-11{
+    width: 50%;
+    color: black;
+    display:flex;
+    align-items: center;
+    text-align:justify;
+    justify-content: center;
+    line-height: 1.5;
+}
+.box-12{
+    width: 50%;
+    color: black;
+}
+.customers{
+    display: flex;
+    color: white;
+    height: 100vh;
+}
+.customer-review{
+    font-size: 30px;
+    font-weight: 700;
+}
+.profile-testimonial{
+    border: 1px solid white;
+    padding: 20px;
+    display: block;
+    margin: 200px 100px;
+    text-align: justify;
+    line-height: 1.8;
+    font-size: 15px;
+    font-weight: 300;
+    background-image: url(./images/“.png);
+    background-repeat: no-repeat;
+    background-position-x:right;
+    background-position-y: 20px;
+}
+.profile-section{
+    display: flex;
+}
+.profile-section p{
+    padding: 5px 0px 0px 10px;
+}
+.profile-description{
+    padding-top: 10px;
+}
+.profile-logo-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile-logo{
+    padding: 20px 0px;
+}
+.jenny{
+    color:#18191F;
+}
+.contact-area{
+    background-color: #084482; 
+    height: 50vh;
+    text-align: center;
+}
+.contact-area p{
+    font-weight: 700;
+    font-size: 40px;
+    padding:50px 0px;
+    color: white;
+}
+.contact-area button{
+    padding: 20px;
+    background-color:  #20354A;
+    border: none;
+    color: white;
+}
+footer{
+    background-color:#084482;
+    height: 10vh;
+    display: flex;
+    color:white;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-imgs {
+    padding-right: 40px;
+
+}
+.footer-imgs img{
+    padding-right: 25px;
+    width: 50px;
+}
