@@ -207,7 +207,7 @@ html{
     margin: 5px 300px 20px 300px;
     align-items: center;
     border-radius: 20px;
-    background-image: url(./images/BG\ Mask.png);
+    background-image: url(./BG\ Mask.png);
     color: white;
 }
 .waitlist input{
@@ -251,7 +251,7 @@ html{
     line-height: 1.8;
     font-size: 15px;
     font-weight: 300;
-    background-image: url(./images/“.png);
+    background-image: url(./“.png);
     background-repeat: no-repeat;
     background-position-x:right;
     background-position-y: 20px;
